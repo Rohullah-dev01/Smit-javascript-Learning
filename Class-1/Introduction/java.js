@@ -9,12 +9,17 @@ console.log("hello java");
 // var - variable: we use variable to assign any thing data.
 var name = "Ali"
 var father = "Muhammad"
-var id = "34"
+var id = 34
 
 // To check it in console we use console.log
 console.log(name);
 console.log(father);
 console.log(id);
+
+// TO check the type of console, we use type of
+console.log(typeof name);
+console.log(typeof father);
+console.log(typeof id);
 
 // To combine more then one we use (+) between them
 console.log( name + father + id)
